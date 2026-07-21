@@ -1,7 +1,7 @@
 
 nav {
   display: flex;
-  height: 42px;
+  height: 48px;
   justify-content: space-between;
   background-color: #0d1211;
   padding: 5px 15px;
@@ -20,8 +20,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-shrink: 1;
-  gap: 30px;
-  font-family: 'Cormorant Garamond';
+  gap: 50px;
+}
+
+#navRight {
+  font-family: 'Monsieur La Doulaise';
+  font-size: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .CTA {
@@ -54,7 +60,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 455px;
+  max-height: 430px;
   width: 100%;
   border: solid black 40px;
   border-left: 0px;
