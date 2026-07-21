@@ -4,11 +4,11 @@ const aboutText = document.querySelector("h2");
 
 setTimeout(() => {
     aboutText.setAttribute("style", "translate: 0%; transform: scale(1); opacity: 100%;");
-}, 500);
+}, 1200);
 
 setTimeout(() => {
     aboutText.setAttribute("style", "none");
-}, 3000);
+}, 4000);
 
 container.addEventListener("mouseover", () => {
   aboutText.setAttribute("style", "translate: 0%; transform: scale(1); opacity: 100%;");
