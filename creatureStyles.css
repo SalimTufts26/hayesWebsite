@@ -1,0 +1,168 @@
+
+nav {
+  display: flex;
+  height: 42px;
+  justify-content: space-between;
+  background-color: #0d1211;
+  padding: 5px 15px;
+  font-size: 18px;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  gap: 30px;
+  box-shadow: 10px 2px 15px 2px black;
+  letter-spacing: .2rem;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 1;
+  gap: 30px;
+}
+
+.CTA {
+  flex-shrink: 3;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  flex-basis: 90px;
+}
+
+.CTA a {
+  display: flex;
+  background-color: #2d3f2e;
+  border: solid #2d3f2e;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  height: 100%;
+  width: 100%;
+}
+
+.CTA a:hover {
+  background-color: #243325;
+  border: solid #293a2a;
+}
+
+.attn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  border: solid #0d1211 10px;
+  border-top: 0px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border-top: solid rgba(109, 109, 109, 0.116);
+  background-color: #121d20;
+  background-image: url("./resources/woodPattern.jpg");
+  background-size: 700px;
+  background-position: 30%;
+
+}
+
+.container {
+  border: solid #0d1211;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #0d1211e0;
+  display: flex;
+  margin-top: 10px;
+  max-width: 1000px;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 10px;
+  box-shadow: 8px 5px 15px 1px black;
+  z-index: 10;
+}
+
+#footer {
+  margin-top: 25px;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-direction: row;
+  z-index: 20;
+}
+
+h3 {
+  border-bottom: solid rgba(0, 0, 0, 0.514) 2px;
+  z-index: 10;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+  z-index: 10;
+}
+
+strong {
+  font-weight: 800;
+}
+
+h2 {
+  text-align: center;
+  z-index: 10;
+}
+
+#imgOne,
+#imgTwo,
+#imgThree {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  box-shadow: 0px 0px 15px 0.1px rgba(245, 234, 186, 0.199);
+}
+
+#imgOne {
+  background-image: url("./resources/imageThree.jpg");
+  background-size: cover;
+  align-self: flex-start;
+  position: absolute;
+  transform: translateX(-30%) translateY(-35%);
+}
+
+#imgTwo {
+  background-image: url("./resources/imageTwo.jpg");
+  background-size: cover;
+  background-position: 20%;
+  align-self: flex-end;
+  transform: translateX(30%);
+  margin: 0;
+}
+
+#imgThree {
+  background-image: url("./resources/imgOne.jpg");
+  background-size: cover;
+  background-position: 20%;
+  transform: translateX(30%) translateY(-30%);
+  align-self: flex-start;
+  margin: 0;
+}
+
+#hidden {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  transition: opacity 20s;
+  transition: 
+    opacity 20s;
+  box-shadow: 0 0 50px rgba(0,0,0,0.9) inset;
+}
+
+#button {
+  margin-top: 25px;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-direction: row;
+  z-index: 20;
+}
