@@ -55,6 +55,7 @@ a {
 	font-family:'Courier New', Courier, monospace;
 	font-weight: 600;
 	text-shadow: 5px 2px 1px black;
+	white-space: nowrap;
 }
 
 a:hover {

@@ -21,7 +21,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-shrink: 1;
-  gap: 50px;
+  gap: 40px;
 }
 
 #navRight {
@@ -37,6 +37,7 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  flex-shrink: 3;
 }
 
 .CTA a {
@@ -98,7 +99,6 @@ nav {
   padding: 0px 0px 0px 10px;
   gap: 10px;
   box-shadow: 8px 5px 15px 1px black;
-
 }
 
 #img,
@@ -169,6 +169,7 @@ nav {
 
 #footer {
   margin-bottom: 0px;
+  flex-direction: row;
 }
 
 #hidden {
@@ -208,4 +209,39 @@ video {
 
 #work {
   padding-top: 50px;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 610px) {
+  .navBar {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .navBar a {
+    font-size: 15px;
+  }
+  .CTA {
+    display: none;
+  }
+  .image {
+    object-fit: contain;
+    max-width: 100%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .textBox {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 465px) {
+  .CTA {
+    display: none;
+  }
 }
