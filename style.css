@@ -70,6 +70,7 @@ nav {
   border-right: 0px;
   background-color: black;
   z-index: 10; 
+  border-bottom: solid rgba(95, 112, 122, 0.295) 1px;
 }
 
 .about {
