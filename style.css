@@ -52,6 +52,7 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 7px;
+  text-shadow: 3px 1px 1px black;
 }
 
 .CTA a:hover {
@@ -63,14 +64,16 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 430px;
+  height: auto;
   width: 100%;
-  border: solid black 40px;
+  max-height: 550px;
+  border: solid black 0px;
   border-left: 0px;
   border-right: 0px;
   background-color: black;
   z-index: 10; 
   border-bottom: solid rgba(95, 112, 122, 0.295) 1px;
+  overflow: hidden;
 }
 
 .about {
@@ -90,12 +93,13 @@ nav {
   border-radius: 20px;
   background-color: #0d1211e0;
   display: flex;
-  margin-top: 10px;
   max-width: 1000px;
   justify-content: space-around;
   padding: 0px 0px 0px 10px;
   gap: 10px;
   box-shadow: 8px 5px 15px 1px black;
+  position: relative;
+  top: -100px;
 }
 
 #img,
@@ -182,12 +186,12 @@ nav {
 
 #about {
   transition: 
-    transform 0.7s,
-    translate 0.5s,
+    transform 0.8s,
+    translate 0.4s,
     opacity 0.3s,
     scale 1s;
   transform: scale(0.8);
-  translate: 0% 150%;
+  translate: 0% -150%;
   z-index: 1;
   opacity: 0%;
 }
@@ -197,5 +201,5 @@ nav {
 }
 
 video {
-  z-index: 1;
+  z-index: 0;
 }
