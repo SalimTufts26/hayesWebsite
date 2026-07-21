@@ -153,6 +153,11 @@ nav {
   text-align: center;
 }
 
+.imageBox img {
+  width: 200px;
+  max-width: 200px;
+}
+
 #creatureImage, #mv {
   z-index: 10;
   position: relative;
@@ -222,6 +227,8 @@ video {
   .navBar {
     width: 100%;
     justify-content: space-around;
+    white-space: wrap;
+    width: 100%;
   }
   .navBar a {
     font-size: 15px;
@@ -239,11 +246,25 @@ video {
   .textBox {
     max-width: 100%;
   }
+  .imageBox img {
+    width: 150px;
+  }
 }
 
 @media (max-width: 465px) {
   .CTA {
     display: none;
   }
-  
+  .navBar a {
+    font-size: 12px;
+    white-space: wrap;
+    width: 100%;
+  }
+  .imageBox img {
+    width: 100px;
+  }
+  .imageBox {
+    flex-direction: column;
+  }
+
 }
