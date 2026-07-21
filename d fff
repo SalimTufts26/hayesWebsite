@@ -1,0 +1,42 @@
+[33mcommit c9bcae193edec5fea4ebd5d59118d852bffa8935[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Salim Tufts <salimtufts9@gmail.com>
+Date:   Tue Jul 21 00:05:36 2026 -0700
+
+    adjusted max-height of .attn
+
+[33mcommit 989b6fbf302b549262b3accca2b351f872128a52[m
+Author: Salim Tufts <salimtufts9@gmail.com>
+Date:   Mon Jul 20 23:48:12 2026 -0700
+
+    muted audio for chrome autoplay
+
+[33mcommit 8c850a05ce755ee852fa302dd34bc4d235447d11[m
+Merge: 01bdab9 17fc0cc
+Author: Salim Tufts <salimtufts9@gmail.com>
+Date:   Mon Jul 20 23:46:02 2026 -0700
+
+    Merge branch 'main' of https://github.com/SalimTufts26/hayesWebsite
+
+[33mcommit 01bdab9f65d50bb094e63dac215350cd117941a1[m
+Author: Salim Tufts <salimtufts9@gmail.com>
+Date:   Mon Jul 20 23:44:04 2026 -0700
+
+    added controls to video
+
+[33mcommit 17fc0ccaf4bdb012bc4d0d842d5dfd06f9f605c6[m
+Author: Salim Tufts <salimreggieraymusic@gmail.com>
+Date:   Mon Jul 20 23:39:30 2026 -0700
+
+    Create static.yml
+
+[33mcommit 483a2c7f3649bacfaf409fdcf7b7a72144000b6f[m
+Author: Salim Tufts <salimreggieraymusic@gmail.com>
+Date:   Mon Jul 20 23:36:21 2026 -0700
+
+    Create CNAME
+
+[33mcommit 6248e4c4bad15bd4fdc9932611cd35f707b82b7f[m
+Author: Salim Tufts <salimtufts9@gmail.com>
+Date:   Mon Jul 20 23:28:30 2026 -0700
+
+    first commit
