@@ -13,6 +13,8 @@ nav {
   box-shadow: 10px 2px 15px 2px black;
   letter-spacing: .2rem;
   text-align: center;
+  transition: translate 0.4s ease-out;
+
 }
 
 .navBar {
@@ -25,9 +27,10 @@ nav {
 
 #navRight {
   font-family: 'Monsieur La Doulaise';
-  font-size: 20px;
+  font-size: 22px;
   display: flex;
   align-items: center;
+  text-shadow: none;
 }
 
 .CTA {
