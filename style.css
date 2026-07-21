@@ -80,6 +80,7 @@ nav {
   flex-direction: column;
   align-items: center;
   padding: 50px;
+  padding-top: 0px;
   border-top: solid rgba(109, 109, 109, 0.116);
   background-color: #121d20;
   background-image:radial-gradient(#a7864c81 1px, transparent 1px);
@@ -189,16 +190,16 @@ nav {
     opacity 0.3s,
     scale 1s;
   transform: scale(0.8);
-  translate: 0% -150%;
+  translate: 0% -50%;
   z-index: 1;
   opacity: 0%;
 }
 
-#aboutMe {
+ #aboutMe {
   z-index: 10;
   position: relative;
-  top: -101.7px;
-} 
+  top: -51px;
+}  */
 
 video {
   z-index: 0;

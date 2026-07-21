@@ -9,7 +9,7 @@ setTimeout(() => {
 
 
 setTimeout(() => {
-    aboutText.setAttribute("style", "translate: 0% -275%; transform: scale(1); opacity: 100%;");
+    aboutText.setAttribute("style", "translate: 0% -135%; transform: scale(1); opacity: 100%;");
 }, 1200);
 
 setTimeout(() => {
@@ -17,7 +17,7 @@ setTimeout(() => {
 }, 4000);
 
 container.addEventListener("mouseover", () => {
-  aboutText.setAttribute("style", "translate: 0% -275%; transform: scale(1); opacity: 100%;");
+  aboutText.setAttribute("style", "translate: 0% -135%; transform: scale(1); opacity: 100%;");
 });
 container.addEventListener("mouseleave", () => {
   aboutText.setAttribute("style", "none;");
