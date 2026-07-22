@@ -161,7 +161,6 @@
         clearInterval(blinker);
         setTimeout(() => {
           embed.setAttribute("style", "display: block; opacity: 100%;");
-          blinker();
         }, 800);
 
       });
@@ -170,7 +169,8 @@
         resText.setAttribute("style", "width: 0%");
         resume.setAttribute("style", "transition: width 1s, height 0.5s; border: solid #0d1211; none;");
         setTimeout(() => {
-          resume.setAttribute("style", "transition: border 0.5s; border: solid white;")
+          resume.setAttribute("style", "transition: border 0.5s; border: solid white;");
+          clearInterval(blinker);
         }, 800);
       });
     </script>

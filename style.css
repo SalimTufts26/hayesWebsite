@@ -219,7 +219,7 @@ video {
 
 #resume {
   display: flex;
-  width: 10%;
+  width: 5%;
   height: 3px;
   border: solid white;
   transition:
