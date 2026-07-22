@@ -217,6 +217,10 @@ video {
   padding-top: 50px;
 }
 
+#upcoming {
+  text-align: center;
+}
+
 #resume {
   display: flex;
   width: 5%;
