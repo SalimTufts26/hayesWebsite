@@ -76,7 +76,7 @@ nav {
   border-radius: 20px;
   background-color: #0d1211e0;
   display: flex;
-  margin-top: 10px;
+  margin-top: 0px;
   max-width: 1000px;
   justify-content: space-around;
   padding: 10px;
@@ -166,3 +166,26 @@ h2 {
   flex-direction: row;
   z-index: 20;
 }
+
+#remy {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 0px;
+  display: flex;
+  animation-name: myAnimation;
+  animation-duration: 10s;
+  width: 100%;
+  opacity: 0%;
+}
+
+#remyGif {
+  height: auto;
+  width: 50px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+/* @keyframes myAnimation {
+  from {padding-left: 0px; opacity: 0%;}
+  to {padding-left: 500px; opacity: 100%;}
+} */
