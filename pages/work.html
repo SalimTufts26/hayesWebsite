@@ -124,10 +124,13 @@
      <br>
      <br>
      <br>
-    <h2>Resume</h2>
-    <div class="container" id="img">
-      <embed src="../resources/Copy of Hayes Tufts Film Resume 2026.pdf" width="700" height="600" type="application/pdf">
+    <div id="resText">
+      <h2>Resume</h2>
+      <div class="container" id="resume">
+        <embed src="../resources/Copy of Hayes Tufts Film Resume 2026.pdf" type="application/pdf" width="100%" height="100%">
+      </div>
     </div>
+
 
     <!-- Contact -->
     <div class="container" id="footer">
@@ -136,6 +139,40 @@
       <a href="https://www.facebook.com/halima.tufts">Facebook</a>
     </div>
    </div>
+    <script>
+      const resume = document.querySelector("#resume");
+      const resText = document.querySelector("#resText");
+      const embed = document.querySelector("embed");
+      blink = true;
 
+      let blinker = setInterval(() => {
+        if (blink) {
+          resume.setAttribute("style", "opacity: 0%;");
+          blink = false;
+        } else {
+          resume.setAttribute("style", "opacity: 100%;");
+          blink = true;
+        }
+      }, 800)
+
+      resText.addEventListener("mouseover", () => {
+        resText.setAttribute("style", "width: 100%");
+        resume.setAttribute("style", "width: 100%; height: 700px; border: solid #0d1211;");
+        clearInterval(blinker);
+        setTimeout(() => {
+          embed.setAttribute("style", "display: block; opacity: 100%;");
+          blinker();
+        }, 800);
+
+      });
+      resText.addEventListener("mouseleave", () => {
+        embed.setAttribute("style", "none;");
+        resText.setAttribute("style", "width: 0%");
+        resume.setAttribute("style", "transition: width 1s, height 0.5s; border: solid #0d1211; none;");
+        setTimeout(() => {
+          resume.setAttribute("style", "transition: border 0.5s; border: solid white;")
+        }, 800);
+      });
+    </script>
 </body>
 </html>
